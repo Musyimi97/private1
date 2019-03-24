@@ -1,0 +1,17 @@
+{%extends "base.html"%}
+{% block content%}
+<h1>We are an online shop selling top range shoes and clothes for men</h1>
+<P>
+{{my_text}}
+
+</P>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+</ul>
+<ul>
+{%for my_sub_item in my_list%}
+    <li>{{my_sub_item}}</li>
+{%endfor%}
+</ul>
+{% endblock %}
