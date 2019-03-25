@@ -6,6 +6,7 @@
         <list>
           <option value="django.urls.path" />
           <option value="src.projectdjango.urls.pages" />
+          <option value="src.projectdjango.urls.products" />
         </list>
       </option>
     </inspection_tool>
